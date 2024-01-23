@@ -24,9 +24,17 @@ namespace AnotherProject.Controllers
         }
 
 
-        //GOAL:
-        //method which serves:
-        //POST localhost:xx/api/string => "Post Request!"
+       
+
+        /// <summary>
+        /// An example post request to the webserver
+        /// </summary>
+        /// <returns>
+        /// "Post Request"
+        /// </returns>
+        /// <example>
+        /// POST: localhost:xx/api/string => "Post Request!"
+        /// </example>
 
         public string Post()
         {
